@@ -5,7 +5,6 @@ import { UsersModule } from './users/users.module';
 import configuration from './config/index';
 import dataSourceOptions from './db/index';
 import { DataSource } from 'typeorm';
-import { TypeOrmModule } from '@nestjs/typeorm';
 @Module({
 	imports: [configuration, dataSourceOptions, ProductModule, AuthModule, UsersModule]
 })
